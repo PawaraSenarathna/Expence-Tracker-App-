@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "expence-tracker",
+    "slug": "expence-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "userInterfaceStyle": "dark",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "icon": "./assets/icon1.png"
+    },
+    "web": {
+      "favicon": "./assets/icon1.png"
+    }
+  }
+}
