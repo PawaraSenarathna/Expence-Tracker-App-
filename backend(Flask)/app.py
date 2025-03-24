@@ -7,12 +7,13 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the model and vectorizer
+
 model = joblib.load('naive_bayes_model.pkl')
 vectorizer = joblib.load('vectorizer.pkl')
 
 def extract_price(text):
     """Extract price based on context keywords."""
-    # Convert text to lower case for consistent matching
+    
     text = text.lower()
 
     # Patterns to match lines containing price-related keywords
