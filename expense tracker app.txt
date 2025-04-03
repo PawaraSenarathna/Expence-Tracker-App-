@@ -1,9 +1,0 @@
-expense tracker app final project bsc
-1.run flask backend- python app.py
-2.run expresse backend- npm run dev
-3.react native frontend- npm run start
-4.mongodb database
-5.expo aken run krnne
-6.ipconfig check krnn ( API LINKS )
-7.env database ak blnn
-
